@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, I'm Ruben 👋
 
 With a proactive approach and a dynamic personality, I stand out as a spontaneous and outgoing individual. My direct communication is combined with deep empathy, allowing me to genuinely connect with others. I always seek solutions with agility and effectiveness, demonstrating negotiating skills in every situation.
 
