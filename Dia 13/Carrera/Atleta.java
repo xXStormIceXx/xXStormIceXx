@@ -2,12 +2,12 @@ package Carrera;
 
 class Atleta implements Runnable {
     private String nombre;
-    private static int siguienteAtleta = 1;
     private int id;
+    private static int siguienteAtleta = 1;
 
-    public Atleta(String nombre) {
+    public Atleta(String nombre, int id) {
         this.nombre = nombre;
-        this.id = siguienteAtleta++;
+        this.id = id;
     }
 
     @Override
@@ -15,19 +15,24 @@ class Atleta implements Runnable {
         synchronized (Carrera.testigo) {
             try {
                 // Esperar turno
-                while (id != siguienteAtleta - 1) {
+                while (id != siguienteAtleta) {
                     Carrera.testigo.wait();
                 }
 
                 // Iniciar carrera
                 System.out.println(nombre + " ha comenzado a correr.");
                 long tiempoInicio = System.currentTimeMillis();
-                Thread.sleep((long) (9000 + Math.random() * 2000));
+                Thread.sleep((long) (9000 + Math.random() * 2000));  // Simular el tiempo de carrera
                 long tiempoFinal = System.currentTimeMillis();
 
-                System.out.println(nombre + " ha terminado en " + (tiempoFinal - tiempoInicio) / 1000.0 + " segundos.");
+                long tiempoCarrera = tiempoFinal - tiempoInicio;
+                System.out.println(nombre + " ha terminado en " + tiempoCarrera / 1000.0 + " segundos.");
 
-                // Notificar al siguiente atleta
+                // Agregar el tiempo de carrera al tiempo total
+                Carrera.agregarTiempo(tiempoCarrera);
+
+                // Pasar el turno al siguiente atleta
+                siguienteAtleta++;
                 Carrera.testigo.notifyAll();
             } catch (InterruptedException e) {
                 e.printStackTrace();
