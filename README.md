@@ -26,7 +26,7 @@ Here are some ideas to get you started:
   <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" width="50" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png" width="50" height="50">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" width="50" height="50">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fes%2Fsearch%3Fq%3Djavascript&psig=AOvVaw1AlMUEinMyIarE95-cn42b&ust=1723813166675000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCtu9GG94cDFQAAAAAdAAAAABAE" width="50" height="50">
+  <img src="https://w7.pngwing.com/pngs/640/199/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png" width="50" height="50">
   <img src="https://victorroblesweb.es/wp-content/uploads/2018/04/git.png" width="50" height="50">
   <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png" width="50" height="50">
    <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" width="50" height="50">
